@@ -1653,3 +1653,19 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+/*--Added_styles--*/
+.button-cart {
+  text-align: center;
+  width: 150px;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  color: white;
+  background: linear-gradient(0deg, rgb(180, 26, 26) 0%, rgb(255, 0, 0) 100%);
+  border-radius: 320px;
+  border: none;
+  cursor: pointer;
+  touch-action: manipulation;
+}
