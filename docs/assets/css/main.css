@@ -12,15 +12,15 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: "Amatic SC", sans-serif;
-  --font-secondary: "Inter", sans-serif;
+  --font-default: monospace;
+  --font-primary: monospace;
+  --font-secondary: monospace;
 }
 
 /* Colors */
 :root {
   --color-default: #212529;
-  --color-primary: #ce1212;
+  --color-primary: #91379B;
   --color-secondary: #37373f;
 }
 
@@ -820,8 +820,13 @@ section {
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
+.menu {
+  background-color: #ffd500;
+}
+
 .menu .nav-tabs {
   border: 0;
+  color: var(--color-secondary);
 }
 
 .menu .nav-link {
@@ -1488,6 +1493,7 @@ section {
 .hero {
   width: 100%;
   background-size: cover;
+  background-color: #91379B;
   position: relative;
   min-height: 60vh;
   padding: 160px 0 60px 0;
@@ -1496,13 +1502,14 @@ section {
 .hero h2 {
   font-size: 64px;
   font-weight: 700;
+
   margin-bottom: 20px;
-  color: var(--color-secondary);
-  font-family: var(--font-primary);
+  color: #ffd500;
+  font-family: monospace;
 }
 
 .hero h2 span {
-  color: var(--color-primary);
+  color: #000;
 }
 
 .hero p {
@@ -1663,9 +1670,9 @@ section {
   font-size: 16px;
   margin: 4px 2px;
   color: white;
-  background: linear-gradient(0deg, rgb(180, 26, 26) 0%, rgb(255, 0, 0) 100%);
-  border-radius: 320px;
+  background: linear-gradient(0deg, rgb(147, 26, 180) 0%, rgb(194, 11, 222) 100%);
+  border-radius: 160px;
   border: none;
-  cursor: pointer;
+  cursor: pointer;  
   touch-action: manipulation;
 }
