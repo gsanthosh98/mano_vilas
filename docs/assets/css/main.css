@@ -12,9 +12,9 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
-  --font-default: monospace;
-  --font-primary: monospace;
-  --font-secondary: monospace;
+  --font-default: Poppins;
+  --font-primary: Poppins;
+  --font-secondary: Poppins;
 }
 
 /* Colors */
@@ -1507,7 +1507,7 @@ section {
 
   margin-bottom: 20px;
   color: #ffd500;
-  font-family: monospace;
+  font-family: Poppins;
 }
 
 .hero h2 span {
