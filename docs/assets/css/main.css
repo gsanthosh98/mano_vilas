@@ -821,7 +821,7 @@ section {
 # Menu Section
 --------------------------------------------------------------*/
 .menu {
-  background-color: #ffd500;
+  background-color: #d1d1d7;
 }
 
 .menu .nav-tabs {
@@ -901,7 +901,7 @@ section {
   padding: 30px 30px;
   image-orientation: center;
   margin-top: 10px;
-  background-color: var(--color-primary);
+  background-color: #ffd500;
 }
 
 .menu .tab-content .menu-item h4 {
@@ -910,6 +910,7 @@ section {
   color: var(--color-secondary);
   font-family: var(--font-secondary);
   font-weight: 30px;
+  margin-top: 10px;
   margin-bottom: 5px;
 }
 
@@ -1308,6 +1309,7 @@ section {
 --------------------------------------------------------------*/
 .gallery {
   overflow: hidden;
+  background-color: #e5e5ec;
 }
 
 .gallery .swiper-pagination {
@@ -1318,7 +1320,6 @@ section {
 .gallery .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #d1d1d7;
   opacity: 1;
 }
 
@@ -1504,7 +1505,6 @@ section {
 .hero h2 {
   font-size: 64px;
   font-weight: 700;
-
   margin-bottom: 20px;
   color: #ffd500;
   font-family: Poppins;
