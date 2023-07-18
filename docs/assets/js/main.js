@@ -17,6 +17,17 @@ document.addEventListener('DOMContentLoaded', () => {
       preloader.remove();
     });
   }
+  /*
+  const preloader = function(){   
+    window.setTimeout('fadeout();', 3000);
+  };
+
+  function fadeout(){
+    document.querySelector('#preloader').delay(2000).fadeOut('slow', function() {
+      document.querySelector('#preloader:after').removeClass('.preloader:after');
+    });
+  }*/
+
 
   /**
    * Sticky header on scroll
