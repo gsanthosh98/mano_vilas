@@ -821,7 +821,7 @@ section {
 # Menu Section
 --------------------------------------------------------------*/
 .menu {
-  background-color: #d1d1d7;
+  background-color: #FBEFA1;
 }
 
 .menu .nav-tabs {
@@ -900,8 +900,6 @@ section {
 .menu .tab-content .menu-item .menu-img {
   padding: 30px 30px;
   image-orientation: center;
-  margin-top: 10px;
-  background-color: #ffd500;
 }
 
 .menu .tab-content .menu-item h4 {
@@ -910,7 +908,6 @@ section {
   color: var(--color-secondary);
   font-family: var(--font-secondary);
   font-weight: 30px;
-  margin-top: 10px;
   margin-bottom: 5px;
 }
 
